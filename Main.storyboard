@@ -38,7 +38,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="First" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Game" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +78,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="Second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,22 +90,124 @@
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                        <rect key="frame" x="0.0" y="551" width="600" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue id="51" destination="8" kind="relationship" relationship="viewControllers"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <scene sceneID="7">
+            <objects>
+                <viewController id="8" sceneMemberID="viewController" customClass="AboutViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5"/>
+                        <viewControllerLayoutGuide type="bottom" id="6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This app was developed for instructor Brian Bird's IOS class in the spring term of 2015" lineBreakMode="tailTruncation" minimumFontSize="10" id="60" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="4" misplaced="YES">
+                                <rect key="frame" x="25" y="118" width="546" height="95"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Flags" lineBreakMode="tailTruncation" minimumFontSize="10" id="61" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" misplaced="YES">
+                                <rect key="frame" x="25" y="69" width="546" height="48"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Developer:" lineBreakMode="tailTruncation" minimumFontSize="10" id="62" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="25" y="223" width="172" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Mark Koble" lineBreakMode="tailTruncation" minimumFontSize="10" id="63" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="245" y="223" width="202" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date:" lineBreakMode="tailTruncation" minimumFontSize="10" id="64" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="25" y="272" width="101" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="6/5/2015" lineBreakMode="tailTruncation" minimumFontSize="10" id="65" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="245" y="272" width="82" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="What is this app all about:" lineBreakMode="tailTruncation" minimumFontSize="10" id="66" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="25" y="325" width="255" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="67" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="5" misplaced="YES">
+                                <rect key="frame" x="32" y="370" width="536" height="138"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <string key="text">This app is a quiz game to help people with the flags of the world.  The player is presented with the name of a country and allowed to pick the appropriate flag.  It allows the player to pick until they get it right.  The next country is shown with the next series of flags.  This continues until the game is finished.</string>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="61" firstAttribute="top" secondItem="9" secondAttribute="top" constant="55" id="68"/>
+                            <constraint firstItem="9" firstAttribute="trailing" secondItem="61" secondAttribute="trailing" constant="23" id="69"/>
+                            <constraint firstItem="61" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="20" id="70"/>
+                            <constraint firstItem="60" firstAttribute="top" secondItem="61" secondAttribute="centerY" constant="19" id="72"/>
+                            <constraint firstItem="60" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="20" id="73"/>
+                            <constraint firstItem="9" firstAttribute="trailing" secondItem="60" secondAttribute="trailing" constant="23" id="74"/>
+                            <constraint firstItem="62" firstAttribute="top" secondItem="60" secondAttribute="centerY" constant="46" id="75"/>
+                            <constraint firstItem="62" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="20" id="76"/>
+                            <constraint firstItem="63" firstAttribute="leading" secondItem="62" secondAttribute="trailing" constant="38" id="77"/>
+                            <constraint firstItem="63" firstAttribute="top" secondItem="60" secondAttribute="centerY" constant="46" id="78"/>
+                            <constraint firstItem="64" firstAttribute="top" secondItem="62" secondAttribute="top" constant="39" id="80"/>
+                            <constraint firstItem="64" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="20" id="81"/>
+                            <constraint firstItem="65" firstAttribute="top" secondItem="63" secondAttribute="centerY" constant="30" id="83"/>
+                            <constraint firstItem="66" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="20" id="85"/>
+                            <constraint firstItem="66" firstAttribute="top" secondItem="64" secondAttribute="centerY" constant="33" id="86"/>
+                            <constraint firstItem="9" firstAttribute="trailing" secondItem="66" secondAttribute="trailing" constant="255" id="87"/>
+                            <constraint firstItem="67" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="25" id="88"/>
+                            <constraint firstItem="67" firstAttribute="top" secondItem="66" secondAttribute="centerY" constant="27" id="89"/>
+                            <constraint firstItem="9" firstAttribute="trailing" secondItem="67" secondAttribute="trailing" constant="25" id="90"/>
+                            <constraint firstItem="65" firstAttribute="leading" secondItem="63" secondAttribute="leading" constant="0.0" id="93"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="50"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752" y="1054"/>
+        </scene>
     </scenes>
     <resources>
         <image name="First" width="30" height="30"/>
         <image name="Second" width="30" height="30"/>
+        <image name="Images/game.png" width="512" height="512"/>
     </resources>
 </document>

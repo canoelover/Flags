@@ -11,8 +11,8 @@ using UIKit;
 
 namespace Flags
 {
-	[Register ("FirstViewController")]
-	partial class FirstViewController
+	[Register ("AboutViewController")]
+	partial class AboutViewController
 	{
 		void ReleaseDesignerOutlets ()
 		{
