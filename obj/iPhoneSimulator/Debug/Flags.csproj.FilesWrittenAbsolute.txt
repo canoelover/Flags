@@ -14,3 +14,6 @@
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Flags.exe.mdb
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/8-view-9.nib
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/game.png
+/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/United-States.png
+/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/Vatican-City.png
+/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/ad.png

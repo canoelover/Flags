@@ -16,29 +16,130 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" misplaced="YES">
-                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" text="Flags" misplaced="YES">
+                                <rect key="frame" x="229" y="52" width="158" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L" text="Guess the Country" misplaced="YES">
+                                <rect key="frame" x="240" y="260" width="194" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="121" translatesAutoresizingMaskIntoConstraints="NO" image="Images/ad.png" misplaced="YES">
+                                <rect key="frame" x="191" y="104" width="246" height="121"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="129" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="29" y="308" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="130" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="240" y="308" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="131" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="425" y="305" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="132" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="29" y="358" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="133" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="240" y="358" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="135" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="425" y="363" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="136" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="29" y="408" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="137" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="240" y="413" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="138" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="425" y="418" width="160" height="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="156" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" misplaced="YES" text="Answer">
+                                <rect key="frame" x="80" y="488" width="448" height="45"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="6" id="112"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="41" id="115"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="0.0" id="118"/>
+                            <constraint firstItem="121" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="8" id="122"/>
+                            <constraint firstItem="121" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="centerY" constant="24" id="127"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="121" secondAttribute="bottom" constant="28" id="128"/>
+                            <constraint firstItem="130" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="16" id="139"/>
+                            <constraint firstItem="130" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="centerY" constant="31" id="140"/>
+                            <constraint firstItem="129" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="23" id="141"/>
+                            <constraint firstItem="129" firstAttribute="top" secondItem="130" secondAttribute="top" constant="0.0" id="142"/>
+                            <constraint firstItem="tsR-hK-woN" firstAttribute="trailing" secondItem="131" secondAttribute="trailing" constant="12" id="143"/>
+                            <constraint firstItem="130" firstAttribute="top" secondItem="131" secondAttribute="top" constant="2" id="144"/>
+                            <constraint firstItem="132" firstAttribute="leading" secondItem="129" secondAttribute="leading" constant="0.0" id="145"/>
+                            <constraint firstItem="133" firstAttribute="top" secondItem="130" secondAttribute="centerY" constant="24" id="146"/>
+                            <constraint firstItem="132" firstAttribute="top" secondItem="133" secondAttribute="top" constant="0.0" id="147"/>
+                            <constraint firstItem="133" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="16" id="148"/>
+                            <constraint firstItem="135" firstAttribute="trailing" secondItem="131" secondAttribute="trailing" constant="0.0" id="149"/>
+                            <constraint firstItem="135" firstAttribute="top" secondItem="133" secondAttribute="top" constant="4" id="150"/>
+                            <constraint firstItem="137" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="16" id="151"/>
+                            <constraint firstItem="136" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="23" id="152"/>
+                            <constraint firstItem="137" firstAttribute="top" secondItem="136" secondAttribute="top" constant="4" id="153"/>
+                            <constraint firstItem="tsR-hK-woN" firstAttribute="trailing" secondItem="138" secondAttribute="trailing" constant="12" id="154"/>
+                            <constraint firstItem="138" firstAttribute="top" secondItem="137" secondAttribute="top" constant="4" id="155"/>
+                            <constraint firstItem="156" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="3" id="157"/>
+                            <constraint firstItem="156" firstAttribute="top" secondItem="137" secondAttribute="centerY" constant="44" id="160"/>
+                            <constraint firstItem="156" firstAttribute="leading" secondItem="136" secondAttribute="leading" constant="40" id="162"/>
+                            <constraint firstItem="138" firstAttribute="trailing" secondItem="156" secondAttribute="trailing" constant="45" id="163"/>
+                            <constraint firstItem="137" firstAttribute="top" secondItem="133" secondAttribute="centerY" constant="28" id="166"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Game" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="FlagImageView" destination="121" id="name-outlet-121"/>
+                        <outlet property="AnswerLabel" destination="156" id="name-outlet-156"/>
+                        <outlet property="Guess1Button" destination="129" id="name-outlet-129"/>
+                        <outlet property="Guess2Button" destination="130" id="name-outlet-130"/>
+                        <outlet property="Guess3Button" destination="131" id="name-outlet-131"/>
+                        <outlet property="Guess4Button" destination="132" id="name-outlet-132"/>
+                        <outlet property="Guess5Button" destination="133" id="name-outlet-133"/>
+                        <outlet property="Guess6Button" destination="135" id="name-outlet-135"/>
+                        <outlet property="Guess7Button" destination="136" id="name-outlet-136"/>
+                        <outlet property="Guess8Button" destination="137" id="name-outlet-137"/>
+                        <outlet property="Guess9Button" destination="138" id="name-outlet-138"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -209,5 +310,8 @@
         <image name="First" width="30" height="30"/>
         <image name="Second" width="30" height="30"/>
         <image name="Images/game.png" width="512" height="512"/>
+        <image name="Images/United-States.png" width="24" height="24"/>
+        <image name="Images/Vatican-City.png" width="32" height="32"/>
+        <image name="Images/ad.png" width="550" height="385"/>
     </resources>
 </document>

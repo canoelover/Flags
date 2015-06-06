@@ -103,5 +103,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Images\game.png" />
+    <BundleResource Include="Resources\Images\United-States.png" />
+    <BundleResource Include="Resources\Images\Vatican-City.png" />
+    <BundleResource Include="Resources\Images\ad.png" />
   </ItemGroup>
 </Project>
