@@ -58,6 +58,10 @@ namespace Flags
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIButton Guess9Button { get; set; }
 
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel QuestionNumberLabel { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (AnswerLabel != null) {
@@ -103,6 +107,10 @@ namespace Flags
 			if (Guess9Button != null) {
 				Guess9Button.Dispose ();
 				Guess9Button = null;
+			}
+			if (QuestionNumberLabel != null) {
+				QuestionNumberLabel.Dispose ();
+				QuestionNumberLabel = null;
 			}
 		}
 	}

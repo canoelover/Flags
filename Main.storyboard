@@ -31,6 +31,10 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="121" translatesAutoresizingMaskIntoConstraints="NO" image="Images/ad.png" misplaced="YES">
                                 <rect key="frame" x="191" y="104" width="246" height="121"/>
+                                <constraints>
+                                    <constraint id="179" firstItem="121" firstAttribute="height" constant="121"/>
+                                    <constraint id="185" firstItem="121" firstAttribute="width" constant="246"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="129" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="29" y="308" width="160" height="40"/>
@@ -93,6 +97,13 @@
                                 <color key="textColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Question 1 of 10" lineBreakMode="tailTruncation" minimumFontSize="10" id="171" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" misplaced="YES">
+                                <rect key="frame" x="129" y="458" width="367" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -120,10 +131,15 @@
                             <constraint firstItem="tsR-hK-woN" firstAttribute="trailing" secondItem="138" secondAttribute="trailing" constant="12" id="154"/>
                             <constraint firstItem="138" firstAttribute="top" secondItem="137" secondAttribute="top" constant="4" id="155"/>
                             <constraint firstItem="156" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="3" id="157"/>
-                            <constraint firstItem="156" firstAttribute="top" secondItem="137" secondAttribute="centerY" constant="44" id="160"/>
                             <constraint firstItem="156" firstAttribute="leading" secondItem="136" secondAttribute="leading" constant="40" id="162"/>
                             <constraint firstItem="138" firstAttribute="trailing" secondItem="156" secondAttribute="trailing" constant="45" id="163"/>
                             <constraint firstItem="137" firstAttribute="top" secondItem="133" secondAttribute="centerY" constant="28" id="166"/>
+                            <constraint firstItem="171" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="10" id="172"/>
+                            <constraint firstItem="156" firstAttribute="top" secondItem="171" secondAttribute="centerY" constant="15" id="173"/>
+                            <constraint firstItem="171" firstAttribute="leading" secondItem="136" secondAttribute="leading" constant="80" id="174"/>
+                            <constraint firstItem="138" firstAttribute="trailing" secondItem="171" secondAttribute="trailing" constant="71" id="175"/>
+                            <constraint firstItem="171" firstAttribute="top" secondItem="137" secondAttribute="centerY" constant="20" id="176"/>
+                            <constraint firstItem="121" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" id="180"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Game" id="acW-dT-cKf"/>
@@ -139,6 +155,7 @@
                         <outlet property="Guess7Button" destination="136" id="name-outlet-136"/>
                         <outlet property="Guess8Button" destination="137" id="name-outlet-137"/>
                         <outlet property="Guess9Button" destination="138" id="name-outlet-138"/>
+                        <outlet property="QuestionNumberLabel" destination="171" id="name-outlet-171"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -217,7 +234,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This app was developed for instructor Brian Bird's IOS class in the spring term of 2015" lineBreakMode="tailTruncation" minimumFontSize="10" id="60" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="4" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This app was developed for instructor Brian Bird's IOS class in the spring term of 2015" lineBreakMode="tailTruncation" minimumFontSize="10" id="60" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="3" misplaced="YES">
                                 <rect key="frame" x="25" y="118" width="546" height="95"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -291,7 +308,6 @@
                             <constraint firstItem="65" firstAttribute="top" secondItem="63" secondAttribute="centerY" constant="30" id="83"/>
                             <constraint firstItem="66" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="20" id="85"/>
                             <constraint firstItem="66" firstAttribute="top" secondItem="64" secondAttribute="centerY" constant="33" id="86"/>
-                            <constraint firstItem="9" firstAttribute="trailing" secondItem="66" secondAttribute="trailing" constant="255" id="87"/>
                             <constraint firstItem="67" firstAttribute="leading" secondItem="9" secondAttribute="leading" constant="25" id="88"/>
                             <constraint firstItem="67" firstAttribute="top" secondItem="66" secondAttribute="centerY" constant="27" id="89"/>
                             <constraint firstItem="9" firstAttribute="trailing" secondItem="67" secondAttribute="trailing" constant="25" id="90"/>
@@ -313,5 +329,200 @@
         <image name="Images/United-States.png" width="24" height="24"/>
         <image name="Images/Vatican-City.png" width="32" height="32"/>
         <image name="Images/ad.png" width="550" height="385"/>
+        <image name="Images/ae.png" width="550" height="275"/>
+        <image name="Images/af.png" width="550" height="367"/>
+        <image name="Images/ag.png" width="550" height="367"/>
+        <image name="Images/al.png" width="550" height="393"/>
+        <image name="Images/am.png" width="550" height="275"/>
+        <image name="Images/ao.png" width="550" height="367"/>
+        <image name="Images/ar.png" width="550" height="354"/>
+        <image name="Images/at.png" width="550" height="367"/>
+        <image name="Images/au.png" width="550" height="275"/>
+        <image name="Images/az.png" width="550" height="275"/>
+        <image name="Images/ba.png" width="550" height="275"/>
+        <image name="Images/bb.png" width="550" height="367"/>
+        <image name="Images/bd.png" width="550" height="330"/>
+        <image name="Images/be.png" width="550" height="477"/>
+        <image name="Images/bf.png" width="550" height="367"/>
+        <image name="Images/bg.png" width="550" height="330"/>
+        <image name="Images/bh.png" width="550" height="330"/>
+        <image name="Images/bi.png" width="550" height="330"/>
+        <image name="Images/bj.png" width="550" height="367"/>
+        <image name="Images/bn.png" width="550" height="275"/>
+        <image name="Images/bo.png" width="550" height="375"/>
+        <image name="Images/br.png" width="550" height="385"/>
+        <image name="Images/bs.png" width="550" height="275"/>
+        <image name="Images/bt.png" width="550" height="367"/>
+        <image name="Images/bw.png" width="550" height="367"/>
+        <image name="Images/by.png" width="550" height="275"/>
+        <image name="Images/bz.png" width="550" height="367"/>
+        <image name="Images/ca.png" width="550" height="275"/>
+        <image name="Images/cd.png" width="550" height="367"/>
+        <image name="Images/cf.png" width="550" height="367"/>
+        <image name="Images/cg.png" width="550" height="367"/>
+        <image name="Images/ch.png" width="550" height="550"/>
+        <image name="Images/ci.png" width="550" height="367"/>
+        <image name="Images/cl.png" width="550" height="367"/>
+        <image name="Images/cm.png" width="550" height="367"/>
+        <image name="Images/cn.png" width="550" height="367"/>
+        <image name="Images/co.png" width="550" height="367"/>
+        <image name="Images/cr.png" width="550" height="330"/>
+        <image name="Images/cu.png" width="550" height="275"/>
+        <image name="Images/cv.png" width="550" height="324"/>
+        <image name="Images/cy.png" width="550" height="330"/>
+        <image name="Images/cz.png" width="550" height="367"/>
+        <image name="Images/de.png" width="550" height="330"/>
+        <image name="Images/dj.png" width="550" height="367"/>
+        <image name="Images/dk.png" width="550" height="416"/>
+        <image name="Images/dm.png" width="550" height="275"/>
+        <image name="Images/do.png" width="550" height="344"/>
+        <image name="Images/dz.png" width="550" height="367"/>
+        <image name="Images/ec.png" width="550" height="275"/>
+        <image name="Images/ee.png" width="550" height="350"/>
+        <image name="Images/eg.png" width="550" height="367"/>
+        <image name="Images/eh.png" width="550" height="275"/>
+        <image name="Images/er.png" width="550" height="275"/>
+        <image name="Images/es.png" width="550" height="367"/>
+        <image name="Images/et.png" width="550" height="275"/>
+        <image name="Images/fi.png" width="550" height="336"/>
+        <image name="Images/fj.png" width="550" height="275"/>
+        <image name="Images/fm.png" width="550" height="289"/>
+        <image name="Images/fr.png" width="550" height="367"/>
+        <image name="Images/ga.png" width="550" height="413"/>
+        <image name="Images/gb.png" width="550" height="275"/>
+        <image name="Images/gd.png" width="550" height="330"/>
+        <image name="Images/ge.png" width="550" height="367"/>
+        <image name="Images/gh.png" width="550" height="367"/>
+        <image name="Images/gm.png" width="550" height="367"/>
+        <image name="Images/gn.png" width="550" height="367"/>
+        <image name="Images/gq.png" width="550" height="367"/>
+        <image name="Images/gr.png" width="550" height="367"/>
+        <image name="Images/gt.png" width="550" height="344"/>
+        <image name="Images/gw.png" width="550" height="275"/>
+        <image name="Images/gy.png" width="550" height="330"/>
+        <image name="Images/hn.png" width="550" height="275"/>
+        <image name="Images/hr.png" width="550" height="275"/>
+        <image name="Images/ht.png" width="550" height="330"/>
+        <image name="Images/hu.png" width="550" height="275"/>
+        <image name="Images/id.png" width="550" height="367"/>
+        <image name="Images/ie.png" width="550" height="275"/>
+        <image name="Images/il.png" width="550" height="400"/>
+        <image name="Images/in.png" width="550" height="367"/>
+        <image name="Images/iq.png" width="550" height="367"/>
+        <image name="Images/ir.png" width="550" height="314"/>
+        <image name="Images/is.png" width="550" height="396"/>
+        <image name="Images/it.png" width="550" height="367"/>
+        <image name="Images/jm.png" width="550" height="275"/>
+        <image name="Images/jo.png" width="550" height="275"/>
+        <image name="Images/jp.png" width="550" height="367"/>
+        <image name="Images/ke.png" width="550" height="367"/>
+        <image name="Images/kg.png" width="550" height="330"/>
+        <image name="Images/kh.png" width="550" height="367"/>
+        <image name="Images/ki.png" width="550" height="275"/>
+        <image name="Images/km.png" width="550" height="330"/>
+        <image name="Images/kn.png" width="550" height="367"/>
+        <image name="Images/kp.png" width="550" height="275"/>
+        <image name="Images/kr.png" width="550" height="367"/>
+        <image name="Images/ks.png" width="550" height="367"/>
+        <image name="Images/kw.png" width="550" height="275"/>
+        <image name="Images/kz.png" width="550" height="275"/>
+        <image name="Images/la.png" width="550" height="367"/>
+        <image name="Images/lb.png" width="550" height="367"/>
+        <image name="Images/lc.png" width="550" height="275"/>
+        <image name="Images/li.png" width="550" height="330"/>
+        <image name="Images/lk.png" width="550" height="275"/>
+        <image name="Images/lr.png" width="550" height="289"/>
+        <image name="Images/ls.png" width="550" height="367"/>
+        <image name="Images/lt.png" width="550" height="330"/>
+        <image name="Images/lu.png" width="550" height="330"/>
+        <image name="Images/lv.png" width="550" height="275"/>
+        <image name="Images/ly.png" width="550" height="275"/>
+        <image name="Images/ma.png" width="550" height="367"/>
+        <image name="Images/mc.png" width="550" height="440"/>
+        <image name="Images/md.png" width="550" height="275"/>
+        <image name="Images/me.png" width="550" height="275"/>
+        <image name="Images/mg.png" width="550" height="367"/>
+        <image name="Images/mh.png" width="550" height="289"/>
+        <image name="Images/mk.png" width="550" height="275"/>
+        <image name="Images/ml.png" width="550" height="367"/>
+        <image name="Images/mm.png" width="550" height="306"/>
+        <image name="Images/mn.png" width="550" height="275"/>
+        <image name="Images/mr.png" width="550" height="367"/>
+        <image name="Images/mt.png" width="550" height="367"/>
+        <image name="Images/mu.png" width="550" height="367"/>
+        <image name="Images/mv.png" width="550" height="367"/>
+        <image name="Images/mw.png" width="550" height="367"/>
+        <image name="Images/mx.png" width="550" height="314"/>
+        <image name="Images/my.png" width="550" height="275"/>
+        <image name="Images/mz.png" width="550" height="367"/>
+        <image name="Images/na.png" width="550" height="367"/>
+        <image name="Images/ne.png" width="550" height="471"/>
+        <image name="Images/ng.png" width="550" height="275"/>
+        <image name="Images/ni.png" width="550" height="330"/>
+        <image name="Images/nl.png" width="550" height="367"/>
+        <image name="Images/no.png" width="550" height="400"/>
+        <image name="Images/np.png" width="550" height="672"/>
+        <image name="Images/nr.png" width="550" height="275"/>
+        <image name="Images/nz.png" width="550" height="275"/>
+        <image name="Images/om.png" width="550" height="275"/>
+        <image name="Images/pa.png" width="550" height="367"/>
+        <image name="Images/pe.png" width="550" height="367"/>
+        <image name="Images/pg.png" width="550" height="413"/>
+        <image name="Images/ph.png" width="550" height="275"/>
+        <image name="Images/pk.png" width="550" height="367"/>
+        <image name="Images/pl.png" width="550" height="344"/>
+        <image name="Images/pt.png" width="550" height="367"/>
+        <image name="Images/pw.png" width="550" height="344"/>
+        <image name="Images/py.png" width="550" height="330"/>
+        <image name="Images/qa.png" width="550" height="216"/>
+        <image name="Images/ro.png" width="550" height="367"/>
+        <image name="Images/rs.png" width="550" height="367"/>
+        <image name="Images/ru.png" width="550" height="367"/>
+        <image name="Images/rw.png" width="550" height="367"/>
+        <image name="Images/sa.png" width="550" height="367"/>
+        <image name="Images/sb.png" width="550" height="275"/>
+        <image name="Images/sc.png" width="550" height="275"/>
+        <image name="Images/sd.png" width="550" height="275"/>
+        <image name="Images/se.png" width="550" height="344"/>
+        <image name="Images/sg.png" width="550" height="367"/>
+        <image name="Images/si.png" width="550" height="275"/>
+        <image name="Images/sk.png" width="550" height="367"/>
+        <image name="Images/sl.png" width="550" height="367"/>
+        <image name="Images/sm.png" width="550" height="413"/>
+        <image name="Images/sn.png" width="550" height="367"/>
+        <image name="Images/so.png" width="550" height="367"/>
+        <image name="Images/sr.png" width="550" height="367"/>
+        <image name="Images/st.png" width="550" height="275"/>
+        <image name="Images/sv.png" width="550" height="310"/>
+        <image name="Images/sy.png" width="550" height="367"/>
+        <image name="Images/sz.png" width="550" height="367"/>
+        <image name="Images/td.png" width="550" height="367"/>
+        <image name="Images/tg.png" width="550" height="340"/>
+        <image name="Images/th.png" width="550" height="367"/>
+        <image name="Images/tj.png" width="550" height="275"/>
+        <image name="Images/tl.png" width="550" height="275"/>
+        <image name="Images/tm.png" width="550" height="367"/>
+        <image name="Images/tn.png" width="550" height="367"/>
+        <image name="Images/to.png" width="550" height="275"/>
+        <image name="Images/tr.png" width="550" height="367"/>
+        <image name="Images/tt.png" width="550" height="330"/>
+        <image name="Images/tv.png" width="550" height="275"/>
+        <image name="Images/tw.png" width="550" height="367"/>
+        <image name="Images/tz.png" width="550" height="367"/>
+        <image name="Images/ua.png" width="550" height="367"/>
+        <image name="Images/ug.png" width="550" height="367"/>
+        <image name="Images/us.png" width="550" height="289"/>
+        <image name="Images/uy.png" width="550" height="367"/>
+        <image name="Images/uz.png" width="550" height="275"/>
+        <image name="Images/va.png" width="550" height="550"/>
+        <image name="Images/vc.png" width="550" height="367"/>
+        <image name="Images/ve.png" width="550" height="367"/>
+        <image name="Images/vn.png" width="550" height="367"/>
+        <image name="Images/vu.png" width="550" height="330"/>
+        <image name="Images/ws.png" width="550" height="275"/>
+        <image name="Images/ye.png" width="550" height="367"/>
+        <image name="Images/za.png" width="550" height="367"/>
+        <image name="Images/zm.png" width="550" height="367"/>
+        <image name="Images/zw.png" width="550" height="275"/>
     </resources>
 </document>
