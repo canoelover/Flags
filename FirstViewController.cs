@@ -12,8 +12,8 @@ namespace Flags
 	{
 		private List <Flag> flags = new List <Flag> ();
 
-		private List <string> fileNameList;
-		private List <string> flagCountryList;
+		private List <Flag> flagCountryList = new List <Flag> ();
+
 		private int guessRows;
 		private int correctAnswers;
 		private int totalGuesses;
@@ -31,6 +31,8 @@ namespace Flags
 		public FirstViewController (IntPtr handle) : base (handle)
 		{
 			GetFlagsFromXML ("FlagList.xml");
+
+			ResetFlags ();
 		}
 
 		public override void ViewDidLoad ()
@@ -126,10 +128,53 @@ namespace Flags
 		}
 
 		/// <summary>
-		/// This method sets up and starts the quiz function
+		/// This method sets up and starts the flag operation
 		/// </summary>
-		public void ResetQuiz()
+		public void ResetFlags()
 		{
+			// Initialize working variables
+			correctAnswers = 0;
+			totalGuesses = 0;
+			flagCountryList.Clear ();
+
+			// Setup the flags being used in the game based on the number of questions pref
+			// utilizing the flagCountryList
+
+			int flagCounter = 1;
+			int numberOfFlags = flags.Count;
+
+
+			// =========== Settings ============
+			var questions = numberOfQuestions;
+
+			while (flagCounter <= questions) {
+
+				int randomIdx = RandomFlag (1, numberOfFlags);
+
+				// Get the random flag from the flags list
+				var randomFlag = flags [randomIdx];
+
+				// Add the flag if it has not already been added before
+				if (!flagCountryList.Contains (randomFlag)) {
+					flagCountryList.Add (randomFlag);
+					flagCounter++;
+				}
+			}
+		}
+
+		/// <summary>
+		/// This method determins a random number for a series of numbers
+		/// </summary>
+		/// <returns>The flag.</returns>
+		/// <param name="lowerLimit">Lower limit.</param>
+		/// <param name="upperLimit">Upper limit.</param>
+		public int RandomFlag (int lowerLimit, int upperLimit)
+		{
+			int randomNum;
+
+			randomNum = rand.Next (lowerLimit, upperLimit);
+
+			return randomNum;
 
 		}
 
