@@ -233,7 +233,7 @@
    <FLAG>
     <FILENAME>CX</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <FILENAME>Christmas Island</FILENAME>
+    <COUNTRY>Christmas Island</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>CC</FILENAME>
@@ -498,7 +498,7 @@
    <FLAG>
     <FILENAME>HN</FILENAME>
     <CONTINIENT>North America</CONTINIENT>
-    <FILENAME>Honduras</FILENAME>
+    <COUNTRY>Honduras</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>HK</FILENAME>
@@ -518,7 +518,7 @@
    <FLAG>
     <FILENAME>IN</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <FILENAME>India</FILENAME>
+    <COUNTRY>India</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>ID</FILENAME>
@@ -883,12 +883,12 @@
    <FLAG>
     <FILENAME>PH</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Philippines</FILENAME>
+    <COUNTRY>Philippines</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>PN</FILENAME>
     <CONTINIENT>Australia</CONTINIENT>
-    <FILENAME>Pitcairn</COUNTRY>
+    <COUNTRY>Pitcairn</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>PL</FILENAME>
