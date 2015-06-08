@@ -104,8 +104,10 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Images\game.png" />
+    <BundleResource Include="Resources\Images\ad.png" />
     <BundleResource Include="Resources\Images\ae.png" />
     <BundleResource Include="Resources\Images\af.png" />
+    <BundleResource Include="Resources\Images\ag.png" />
     <BundleResource Include="Resources\Images\al.png" />
     <BundleResource Include="Resources\Images\am.png" />
     <BundleResource Include="Resources\Images\ao.png" />
@@ -113,12 +115,16 @@
     <BundleResource Include="Resources\Images\at.png" />
     <BundleResource Include="Resources\Images\au.png" />
     <BundleResource Include="Resources\Images\az.png" />
+    <BundleResource Include="Resources\Images\ba.png" />
     <BundleResource Include="Resources\Images\bb.png" />
     <BundleResource Include="Resources\Images\bd.png" />
     <BundleResource Include="Resources\Images\be.png" />
+    <BundleResource Include="Resources\Images\bf.png" />
     <BundleResource Include="Resources\Images\bg.png" />
     <BundleResource Include="Resources\Images\bh.png" />
     <BundleResource Include="Resources\Images\bi.png" />
+    <BundleResource Include="Resources\Images\bj.png" />
+    <BundleResource Include="Resources\Images\bn.png" />
     <BundleResource Include="Resources\Images\bo.png" />
     <BundleResource Include="Resources\Images\br.png" />
     <BundleResource Include="Resources\Images\bs.png" />
@@ -128,8 +134,10 @@
     <BundleResource Include="Resources\Images\bz.png" />
     <BundleResource Include="Resources\Images\ca.png" />
     <BundleResource Include="Resources\Images\cd.png" />
+    <BundleResource Include="Resources\Images\cf.png" />
     <BundleResource Include="Resources\Images\cg.png" />
     <BundleResource Include="Resources\Images\ch.png" />
+    <BundleResource Include="Resources\Images\ci.png" />
     <BundleResource Include="Resources\Images\cl.png" />
     <BundleResource Include="Resources\Images\cm.png" />
     <BundleResource Include="Resources\Images\cn.png" />
@@ -149,6 +157,7 @@
     <BundleResource Include="Resources\Images\ee.png" />
     <BundleResource Include="Resources\Images\eg.png" />
     <BundleResource Include="Resources\Images\eh.png" />
+    <BundleResource Include="Resources\Images\er.png" />
     <BundleResource Include="Resources\Images\es.png" />
     <BundleResource Include="Resources\Images\et.png" />
     <BundleResource Include="Resources\Images\fi.png" />
@@ -165,6 +174,7 @@
     <BundleResource Include="Resources\Images\gq.png" />
     <BundleResource Include="Resources\Images\gr.png" />
     <BundleResource Include="Resources\Images\gt.png" />
+    <BundleResource Include="Resources\Images\gw.png" />
     <BundleResource Include="Resources\Images\gy.png" />
     <BundleResource Include="Resources\Images\hn.png" />
     <BundleResource Include="Resources\Images\hr.png" />
@@ -184,6 +194,7 @@
     <BundleResource Include="Resources\Images\ke.png" />
     <BundleResource Include="Resources\Images\kg.png" />
     <BundleResource Include="Resources\Images\kh.png" />
+    <BundleResource Include="Resources\Images\ki.png" />
     <BundleResource Include="Resources\Images\km.png" />
     <BundleResource Include="Resources\Images\kn.png" />
     <BundleResource Include="Resources\Images\kp.png" />
@@ -197,9 +208,11 @@
     <BundleResource Include="Resources\Images\li.png" />
     <BundleResource Include="Resources\Images\lk.png" />
     <BundleResource Include="Resources\Images\lr.png" />
+    <BundleResource Include="Resources\Images\ls.png" />
     <BundleResource Include="Resources\Images\lt.png" />
     <BundleResource Include="Resources\Images\lu.png" />
     <BundleResource Include="Resources\Images\lv.png" />
+    <BundleResource Include="Resources\Images\ly.png" />
     <BundleResource Include="Resources\Images\ma.png" />
     <BundleResource Include="Resources\Images\mc.png" />
     <BundleResource Include="Resources\Images\md.png" />
@@ -244,6 +257,7 @@
     <BundleResource Include="Resources\Images\rw.png" />
     <BundleResource Include="Resources\Images\sa.png" />
     <BundleResource Include="Resources\Images\sb.png" />
+    <BundleResource Include="Resources\Images\sc.png" />
     <BundleResource Include="Resources\Images\sd.png" />
     <BundleResource Include="Resources\Images\se.png" />
     <BundleResource Include="Resources\Images\sg.png" />
@@ -253,6 +267,8 @@
     <BundleResource Include="Resources\Images\sm.png" />
     <BundleResource Include="Resources\Images\sn.png" />
     <BundleResource Include="Resources\Images\so.png" />
+    <BundleResource Include="Resources\Images\sr.png" />
+    <BundleResource Include="Resources\Images\st.png" />
     <BundleResource Include="Resources\Images\sv.png" />
     <BundleResource Include="Resources\Images\sy.png" />
     <BundleResource Include="Resources\Images\sz.png" />
@@ -260,6 +276,7 @@
     <BundleResource Include="Resources\Images\tg.png" />
     <BundleResource Include="Resources\Images\th.png" />
     <BundleResource Include="Resources\Images\tj.png" />
+    <BundleResource Include="Resources\Images\tl.png" />
     <BundleResource Include="Resources\Images\tm.png" />
     <BundleResource Include="Resources\Images\tn.png" />
     <BundleResource Include="Resources\Images\to.png" />
@@ -277,6 +294,7 @@
     <BundleResource Include="Resources\Images\vc.png" />
     <BundleResource Include="Resources\Images\ve.png" />
     <BundleResource Include="Resources\Images\vn.png" />
+    <BundleResource Include="Resources\Images\vu.png" />
     <BundleResource Include="Resources\Images\ws.png" />
     <BundleResource Include="Resources\Images\ye.png" />
     <BundleResource Include="Resources\Images\za.png" />

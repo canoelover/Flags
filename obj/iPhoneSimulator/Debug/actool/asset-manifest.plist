@@ -6,24 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
+			<string>/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/actool/Assets.car</string>
 			<string>/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
 		</array>
 	</dict>
-	<key>com.apple.actool.errors</key>
-	<array>
-		<dict>
-			<key>description</key>
-			<string>None of the input catalogs contained a matching app icon set named  "AppIcons".</string>
-		</dict>
-	</array>
-	<key>com.apple.actool.notices</key>
-	<array>
-		<dict>
-			<key>description</key>
-			<string>Failed to read file attributes for "/Users/markkoble/Projects/TermProject/Flags/Flags/Resources/Images.xcassets"</string>
-			<key>failure-reason</key>
-			<string>No such file or directory</string>
-		</dict>
-	</array>
 </dict>
 </plist>

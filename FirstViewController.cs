@@ -24,8 +24,8 @@ namespace Flags
 
 		NSObject observer = null;
 
-		private int numberOfButtons = 9;
-		private int numberOfQuestions = 10;
+		private int numberOfButtons = 3;
+		private int numberOfQuestions = 5;
 
 		// Open instance of random number generator
 		Random rand = new Random ();
@@ -36,6 +36,7 @@ namespace Flags
 		{
 			GetFlagsFromXML ("FlagList.xml");
 
+//			ResetFlags ();
 		}
 
 		public override void ViewDidLoad ()
@@ -126,16 +127,6 @@ namespace Flags
 			// Initialize working variables
 			correctAnswers = 0;
 			totalGuesses = 0;
-
-			AnswerLabel.Text = "";
-
-			// Randomize the base list
-			for (int i = 0; i < flags.Count;  i++) {
-				Flag temp = flags[i];
-				int randomIndex = rand.Next(i, flags.Count);
-				flags[i] = flags[randomIndex];
-				flags[randomIndex] = temp;
-			}
 
 
 			// Setup the flags being used in the game based on the number of questions pref
@@ -270,15 +261,6 @@ namespace Flags
 					}
 				}
 			}
-
-			for (int i = 0; i < flags.Count;  i++) {
-				Flag temp = flags[i];
-				int randomIndex = rand.Next(i, flags.Count);
-				flags[i] = flags[randomIndex];
-				flags[randomIndex] = temp;
-			}
-
-
 
 		}
 
