@@ -302,5 +302,6 @@
     <BundleResource Include="Resources\Images\zm.png" />
     <BundleResource Include="Resources\Images\zw.png" />
     <BundleResource Include="Resources\FlagList.xml" />
+    <BundleResource Include="Resources\Images\pm.png" />
   </ItemGroup>
 </Project>

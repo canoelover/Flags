@@ -14,13 +14,16 @@ namespace Flags
 
 		private List <Flag> flagCountryList = new List <Flag> ();
 
+		private List <UIButton> flagButtons;
+
 		private int guessRows;
 		private int correctAnswers;
+		private string correctCountry;
 		private int totalGuesses;
 
 		NSObject observer = null;
-		private string continient = "all";
-		private int numberOfButtons = 3;
+
+		private int numberOfButtons = 6;
 		private int numberOfQuestions = 5;
 
 		// Open instance of random number generator
@@ -32,7 +35,7 @@ namespace Flags
 		{
 			GetFlagsFromXML ("FlagList.xml");
 
-			ResetFlags ();
+//			ResetFlags ();
 		}
 
 		public override void ViewDidLoad ()
@@ -40,23 +43,9 @@ namespace Flags
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
 
+			flagButtons = new List <UIButton> ();
 
 
-			Guess1Button.Hidden = true;
-			Guess2Button.Hidden = true;
-			Guess3Button.Hidden = true;
-			Guess4Button.Hidden = true;
-			Guess5Button.Hidden = true;
-			Guess6Button.Hidden = true;
-			Guess7Button.Hidden = true;
-			Guess8Button.Hidden = true;
-			Guess9Button.Hidden = true;
-
-			if (numberOfButtons == 3 || numberOfButtons == 6 || numberOfButtons == 9) {
-
-				Guess1Button.Hidden = false;
-				Guess2Button.Hidden = false;
-				Guess3Button.Hidden = false;
 
 				Guess1Button.TouchUpInside += (object sender, EventArgs e) => {
 					
@@ -74,13 +63,7 @@ namespace Flags
 
 
 				};
-			}
 
-			if (numberOfButtons == 6 || numberOfButtons == 9) {
-
-				Guess4Button.Hidden = false;
-				Guess5Button.Hidden = false;
-				Guess6Button.Hidden = false;
 
 				Guess4Button.TouchUpInside += (object sender, EventArgs e) => {
 
@@ -96,13 +79,6 @@ namespace Flags
 
 
 				};
-			}
-
-			if (numberOfButtons == 9) {
-
-				Guess7Button.Hidden = false;
-				Guess8Button.Hidden = false;
-				Guess9Button.Hidden = false;
 
 				Guess7Button.TouchUpInside += (object sender, EventArgs e) => {
 
@@ -118,7 +94,9 @@ namespace Flags
 
 
 				};
-			}
+//			}
+
+			ResetFlags ();
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -135,19 +113,19 @@ namespace Flags
 			// Initialize working variables
 			correctAnswers = 0;
 			totalGuesses = 0;
-			flagCountryList.Clear ();
+
 
 			// Setup the flags being used in the game based on the number of questions pref
 			// utilizing the flagCountryList
 
 			int flagCounter = 1;
 			int numberOfFlags = flags.Count;
+			flagCountryList.Clear ();
 
 
-			// =========== Settings ============
-			var questions = numberOfQuestions;
+			// =========== Settings ===========
 
-			while (flagCounter <= questions) {
+			while (flagCounter <= numberOfQuestions) {
 
 				int randomIdx = RandomFlag (1, numberOfFlags);
 
@@ -160,6 +138,65 @@ namespace Flags
 					flagCounter++;
 				}
 			}
+
+			// Start the operation by loading the first flag
+			LoadNextFlag ();
+		}
+			
+
+		public void LoadNextFlag()
+		{
+
+			//Eliminate the flag at the top of the list after moving the current flag to the next
+			var nextFlag  = flagCountryList [0];
+			flagCountryList.RemoveAt (0);
+			correctCountry = nextFlag.Country;
+
+			AnswerLabel.Text = null;
+			correctAnswers++;
+
+			// Display the current question number
+
+			QuestionNumberLabel.Text = "Question " + correctAnswers.ToString () + " of " + numberOfQuestions.ToString ();
+
+			// Display the flag
+			FlagImageView.Image = UIImage.FromBundle("Images/" + nextFlag.FileName + ".png");
+
+			//Put the correct answer at the bottom of flag
+			int index = flags.FindIndex (
+				            (Flag f) => f.Country.Equals (correctCountry, StringComparison.Ordinal));
+			var holdVal = flags [index];
+			flags.RemoveAt (index);
+			flags.Add (holdVal);
+
+			// Add the correct number of buttons based on settings
+			flagButtons.Add (Guess1Button);
+			flagButtons.Add (Guess2Button);
+			flagButtons.Add (Guess3Button);
+			flagButtons.Add (Guess4Button);
+			flagButtons.Add (Guess5Button);
+			flagButtons.Add (Guess6Button);
+			flagButtons.Add (Guess7Button);
+			flagButtons.Add (Guess8Button);
+			flagButtons.Add (Guess9Button);
+
+			for (int i = 0; i < 9; i++) {
+				flagButtons [i].Hidden = true;
+			}
+
+			//============== Settings ================
+			for (int i = 0; i < numberOfButtons; i++) {
+
+				flagButtons [i].Hidden = false;
+				var countryName = flags [i].Country;
+				flagButtons [i].SetTitle(countryName, UIControlState.Normal);
+			}
+
+			// Randomly replace one of the buttons with the right answer
+			int index2 = rand.Next (numberOfButtons); 
+			flagButtons [index2].SetTitle (correctCountry, UIControlState.Normal);
+
+
 		}
 
 		/// <summary>
