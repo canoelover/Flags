@@ -281,12 +281,23 @@ namespace Flags
 				AnswerLabel.TextColor = UIColor.Green;
 
 
-				// ******** Add disable buttons here *********
-
 				// End of game process
 				if (correctAnswers == numberOfQuestions) {
+					var endOfGameActionSheet = new UIActionSheet ("You finished the game.  Is it OK to continue!");
+					endOfGameActionSheet.AddButton ("Yes");
+					endOfGameActionSheet.DestructiveButtonIndex = 0;
+//					taxoffActionSheet.AddButton ("Cancel");
+//					taxoffActionSheet.CancelButtonIndex = 1;
+					endOfGameActionSheet.Clicked += delegate(object a, UIButtonEventArgs b) {
+						if (b.ButtonIndex == 0)
+						{
+							ResetFlags();
+						} 
+					};
 
-					// ******** Add alert for end of game *********
+					endOfGameActionSheet.ShowInView (View);	
+
+
 				} else {
 					LoadNextFlag ();
 				}
