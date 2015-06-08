@@ -43,7 +43,7 @@
    <FLAG>
     <FILENAME>AG</FILENAME>
     <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Antigua And Barbuda</COUNTRY>
+    <COUNTRY>Antigua</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>AR</FILENAME>
@@ -138,7 +138,7 @@
    <FLAG>
     <FILENAME>BA</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Bosnia And Herzegovina</COUNTRY>
+    <COUNTRY>Bosnia</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>BW</FILENAME>
@@ -158,12 +158,12 @@
    <FLAG>
     <FILENAME>IO</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>British Indian Ocean Territory</COUNTRY>
+    <COUNTRY>British Indian OT</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>BN</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Brunei Darussalam</COUNTRY>
+    <COUNTRY>Brunei</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>BG</FILENAME>
@@ -213,7 +213,7 @@
    <FLAG>
     <FILENAME>CF</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Central African Republic</COUNTRY>
+    <COUNTRY>Central African</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>TD</FILENAME>
@@ -338,7 +338,7 @@
    <FLAG>
     <FILENAME>GQ</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Equatorial Guinea</COUNTRY>
+    <COUNTRY>E Guinea</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>ER</FILENAME>
@@ -398,7 +398,7 @@
    <FLAG>
     <FILENAME>TF</FILENAME>
     <CONTINIENT>Antarctica</CONTINIENT>
-    <COUNTRY>French Southern Territories</COUNTRY>
+    <COUNTRY>French Southern Ter</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>GA</FILENAME>
@@ -638,7 +638,7 @@
    <FLAG>
     <FILENAME>LY</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Libyan Arab Jamahiriya</COUNTRY>
+    <COUNTRY>Libyan Arab</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>LI</FILENAME>
@@ -833,7 +833,7 @@
    <FLAG>
     <FILENAME>MP</FILENAME>
     <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Northern Mariana Islands</COUNTRY>
+    <COUNTRY>Northern Mariana Isld</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>NO</FILENAME>
@@ -918,7 +918,7 @@
    <FLAG>
     <FILENAME>RU</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Russian Federation</COUNTRY>
+    <COUNTRY>Russian Fed</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>RW</FILENAME>
@@ -988,7 +988,7 @@
    <FLAG>
     <FILENAME>CS</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Serbien und Montenegro</COUNTRY>
+    <COUNTRY>Serbien</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>SC</FILENAME>
@@ -1083,7 +1083,7 @@
    <FLAG>
     <FILENAME>SY</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Syrian Arab Republic</COUNTRY>
+    <COUNTRY>Syrian Arab Rep</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>TW</FILENAME>
@@ -1128,7 +1128,7 @@
    <FLAG>
     <FILENAME>TT</FILENAME>
     <CONTINIENT>South America</CONTINIENT>
-    <COUNTRY>Trinidad And Tobago</COUNTRY>
+    <COUNTRY>Trinidad</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>TA</FILENAME>
@@ -1153,7 +1153,7 @@
    <FLAG>
     <FILENAME>TC</FILENAME>
     <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Turks And Caicos Islands</COUNTRY>
+    <COUNTRY>Turks Islands</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>TV</FILENAME>
@@ -1223,7 +1223,7 @@
    <FLAG>
     <FILENAME>WF</FILENAME>
     <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Wallis And Futuna</COUNTRY>
+    <COUNTRY>Wallis</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>EH</FILENAME>

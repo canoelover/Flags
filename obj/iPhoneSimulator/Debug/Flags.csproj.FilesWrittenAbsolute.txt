@@ -1,5 +1,6 @@
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/8-view-9.nib
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
@@ -7,15 +8,7 @@
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/actool/partial-info.plist
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/actool/Assets.car
-/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/
-/Users/markkoble/Projects/TermProject/Flags/Flags/bin/iPhoneSimulator/Debug/Flags.exe.mdb
-/Users/markkoble/Projects/TermProject/Flags/Flags/bin/iPhoneSimulator/Debug/Flags.exe
-/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Flags.exe
-/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Flags.exe.mdb
-/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/8-view-9.nib
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/game.png
-/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/United-States.png
-/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/Vatican-City.png
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/ad.png
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/ae.png
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/af.png
@@ -213,3 +206,7 @@
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/zm.png
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/zw.png
 /Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Images/pm.png
+/Users/markkoble/Projects/TermProject/Flags/Flags/bin/iPhoneSimulator/Debug/Flags.exe.mdb
+/Users/markkoble/Projects/TermProject/Flags/Flags/bin/iPhoneSimulator/Debug/Flags.exe
+/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Flags.exe
+/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/Flags.exe.mdb

@@ -1,6 +1,6 @@
-# Version: 8.10.0.3 (3c4e832)
+# Version: 8.10.1.64 (e6ebd18)
 # [first argument, ignore] # /Users/markkoble/Projects/TermProject/Flags/Flags/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.0.303/bin/mtouch \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.1.64/bin/mtouch \
 	--cache \
 	/Users/markkoble/Projects/TermProject/Flags/Flags/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
