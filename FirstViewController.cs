@@ -20,16 +20,17 @@ namespace Flags
 		private int correctAnswers;
 		private string correctCountry;
 		private int totalGuesses;
+		private bool firstTime = true;
 
 		NSObject observer = null;
 
-		private int numberOfButtons = 6;
+		private int numberOfButtons = 3;
 		private int numberOfQuestions = 5;
 
 		// Open instance of random number generator
 		Random rand = new Random ();
 
-//		ButtonProcessing bp = new ButtonProcessing ();
+		//		ButtonProcessing bp = new ButtonProcessing ();
 
 		public FirstViewController (IntPtr handle) : base (handle)
 		{
@@ -43,60 +44,73 @@ namespace Flags
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
 
+
 			flagButtons = new List <UIButton> ();
 
+			if (firstTime) {
+				ResetFlags ();
+				firstTime = false;
+			}
 
-
-				Guess1Button.TouchUpInside += (object sender, EventArgs e) => {
-					
-
-				};
-
-
-				Guess2Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-
-
-				Guess3Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-
-
-				Guess4Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-
-				Guess5Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-
-				Guess6Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-
-				Guess7Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-				
-				Guess8Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
-
-				Guess9Button.TouchUpInside += (object sender, EventArgs e) => {
-
-
-				};
+			// ================ Settings =================
+//			for (int i = 0; i < numberOfButtons; i++) {
+//				flagButtons [i].TouchUpInside += delegate {
+//					UIButton but = flagButtons [i];
+//					ButtonProcessing(but);
+//				};
+//				flagButtons [i].TouchUpInside += (object sender, EventArgs e) => ButtonProcessing (sender);
 //			}
 
-			ResetFlags ();
+			Guess1Button.TouchUpInside += (object sender, EventArgs e) => {
+				
+				ButtonProcessing (1);
+			};
+
+
+			Guess2Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (2);
+			};
+
+
+			Guess3Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (3);
+			};
+
+
+			Guess4Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (4);
+			};
+
+			Guess5Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (5);
+			};
+
+			Guess6Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (6);
+			};
+
+			Guess7Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (7);
+			};
+				
+			Guess8Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (8);
+			};
+
+			Guess9Button.TouchUpInside += (object sender, EventArgs e) => {
+
+				ButtonProcessing (9);
+			};
+
+
+
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -108,7 +122,7 @@ namespace Flags
 		/// <summary>
 		/// This method sets up and starts the flag operation
 		/// </summary>
-		public void ResetFlags()
+		public void ResetFlags ()
 		{
 			// Initialize working variables
 			correctAnswers = 0;
@@ -142,17 +156,17 @@ namespace Flags
 			// Start the operation by loading the first flag
 			LoadNextFlag ();
 		}
-			
 
-		public void LoadNextFlag()
+
+		public void LoadNextFlag ()
 		{
 
 			//Eliminate the flag at the top of the list after moving the current flag to the next
-			var nextFlag  = flagCountryList [0];
+			var nextFlag = flagCountryList [0];
 			flagCountryList.RemoveAt (0);
 			correctCountry = nextFlag.Country;
 
-			AnswerLabel.Text = null;
+
 			correctAnswers++;
 
 			// Display the current question number
@@ -160,7 +174,7 @@ namespace Flags
 			QuestionNumberLabel.Text = "Question " + correctAnswers.ToString () + " of " + numberOfQuestions.ToString ();
 
 			// Display the flag
-			FlagImageView.Image = UIImage.FromBundle("Images/" + nextFlag.FileName + ".png");
+			FlagImageView.Image = UIImage.FromBundle ("Images/" + nextFlag.FileName + ".png");
 
 			//Put the correct answer at the bottom of flag
 			int index = flags.FindIndex (
@@ -168,6 +182,8 @@ namespace Flags
 			var holdVal = flags [index];
 			flags.RemoveAt (index);
 			flags.Add (holdVal);
+
+			flagButtons.Clear ();
 
 			// Add the correct number of buttons based on settings
 			flagButtons.Add (Guess1Button);
@@ -180,6 +196,7 @@ namespace Flags
 			flagButtons.Add (Guess8Button);
 			flagButtons.Add (Guess9Button);
 
+
 			for (int i = 0; i < 9; i++) {
 				flagButtons [i].Hidden = true;
 			}
@@ -189,12 +206,14 @@ namespace Flags
 
 				flagButtons [i].Hidden = false;
 				var countryName = flags [i].Country;
-				flagButtons [i].SetTitle(countryName, UIControlState.Normal);
+				flagButtons [i].SetTitle (countryName, UIControlState.Normal);
+				flagButtons [i].TitleLabel.Text = countryName;
 			}
 
 			// Randomly replace one of the buttons with the right answer
 			int index2 = rand.Next (numberOfButtons); 
 			flagButtons [index2].SetTitle (correctCountry, UIControlState.Normal);
+			flagButtons [index2].TitleLabel.Text = correctCountry;
 
 
 		}
@@ -243,6 +262,42 @@ namespace Flags
 				}
 			}
 
+		}
+
+		/// <summary>
+		/// This method handles normal button processing
+		/// </summary>
+		/// <param name="button">Button.</param>
+		public void ButtonProcessing (int button)
+		{
+			var guess = flagButtons [button - 1];
+			totalGuesses++;
+
+			// Correct guess
+			if (guess.CurrentTitle.Equals (correctCountry)) {
+
+				// Display correct answer in green
+				AnswerLabel.Text = "CORRECT....." + correctCountry + "!";
+				AnswerLabel.TextColor = UIColor.Green;
+
+
+				// ******** Add disable buttons here *********
+
+				// End of game process
+				if (correctAnswers == numberOfQuestions) {
+
+					// ******** Add alert for end of game *********
+				} else {
+					LoadNextFlag ();
+				}
+			} else {
+				
+				// Guess was incorrect and display in red
+				AnswerLabel.Text = "Sorry......it's wrong!";
+				AnswerLabel.TextColor = UIColor.Red;
+				guess.Hidden = true;
+			}
+					
 		}
 	}
 }
