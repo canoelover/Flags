@@ -16,34 +16,9 @@
     <COUNTRY>Algeria</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>AS</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>American Samoa</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AD</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Andorra</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>AO</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Angola</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AI</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Anguilla</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AQ</FILENAME>
-    <CONTINIENT>Antarctica</CONTINIENT>
-    <COUNTRY>Antarctica</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AG</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Antigua And Barbuda</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>AR</FILENAME>
@@ -54,16 +29,6 @@
     <FILENAME>AM</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>Armenia</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AW</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Aruba</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AC</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Ascension</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>AU</FILENAME>
@@ -116,16 +81,6 @@
     <COUNTRY>Belize</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>BJ</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Benin</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>BM</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Bermuda</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>BT</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>Bhutan</COUNTRY>
@@ -136,19 +91,9 @@
     <COUNTRY>Bolivia</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>BA</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Bosnia And Herzegovina</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>BW</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Botswana</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>BV</FILENAME>
-    <CONTINIENT>Antarctica</CONTINIENT>
-    <COUNTRY>Bouvet Island</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>BR</FILENAME>
@@ -156,24 +101,9 @@
     <COUNTRY>Brazil</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>IO</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>British Indian Ocean Territory</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>BN</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Brunei Darussalam</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>BG</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
     <COUNTRY>Bulgaria</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>BF</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Burkina Faso</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>BI</FILENAME>
@@ -206,16 +136,6 @@
     <COUNTRY>Cape Verde</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>KY</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Cayman Islands</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>CF</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Central African Republic</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>TD</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Chad</COUNTRY>
@@ -229,16 +149,6 @@
     <FILENAME>CN</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>China</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>CX</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Christmas Island</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>CC</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Cocos Islands</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>CO</FILENAME>
@@ -291,19 +201,9 @@
     <COUNTRY>Czech Republic</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>CI</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>CÔte D'ivoire</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>DK</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
     <COUNTRY>Denmark</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>DG</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Diego Garcia</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>DJ</FILENAME>
@@ -341,11 +241,6 @@
     <COUNTRY>Equatorial Guinea</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>ER</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Eritrea</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>EE</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
     <COUNTRY>Estonia</COUNTRY>
@@ -356,19 +251,9 @@
     <COUNTRY>Ethiopia</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>EU</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>European Union</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>FK</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Falkland Islands</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>FO</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Faroe Islands</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>FJ</FILENAME>
@@ -391,16 +276,6 @@
     <COUNTRY>French Guiana</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>PF</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>French Polynesia</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>TF</FILENAME>
-    <CONTINIENT>Antarctica</CONTINIENT>
-    <COUNTRY>French Southern Territories</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>GA</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Gabon</COUNTRY>
@@ -409,11 +284,6 @@
     <FILENAME>GM</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Gambia</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>GE</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Georgia</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>DE</FILENAME>
@@ -451,29 +321,14 @@
     <COUNTRY>Guadeloupe</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>GU</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Guam</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>GT</FILENAME>
     <CONTINIENT>North America</CONTINIENT>
     <COUNTRY>Guatemala</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>GG</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Guernsey</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>GN</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Guinea</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>GW</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Guinea-bissau</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>GY</FILENAME>
@@ -484,11 +339,6 @@
     <FILENAME>HT</FILENAME>
     <CONTINIENT>North America</CONTINIENT>
     <COUNTRY>Haiti</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>HM</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Heard Island</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>VA</FILENAME>
@@ -541,11 +391,6 @@
     <COUNTRY>Ireland</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>IM</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Isle Of Man</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>IL</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>Israel</COUNTRY>
@@ -586,11 +431,6 @@
     <COUNTRY>Kenya</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>KI</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Kiribati</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>KP</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>DPR Korea</COUNTRY>
@@ -626,19 +466,9 @@
     <COUNTRY>Lebanon</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>LS</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Lesotho</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>LR</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Liberia</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>LY</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Libyan Arab Jamahiriya</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>LI</FILENAME>
@@ -654,11 +484,6 @@
     <FILENAME>LU</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
     <COUNTRY>Luxembourg</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>MO</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Macao</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>MK</FILENAME>
@@ -699,11 +524,6 @@
     <FILENAME>MH</FILENAME>
     <CONTINIENT>Australia</CONTINIENT>
     <COUNTRY>Marshall Islands</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>MQ</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Martinique</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>MR</FILENAME>
@@ -751,11 +571,6 @@
     <COUNTRY>Montenegro</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>MS</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Montserrat</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>MA</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Morocco</COUNTRY>
@@ -791,11 +606,6 @@
     <COUNTRY>Netherlands</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>AN</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Netherlands Antilles</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>NC</FILENAME>
     <CONTINIENT>Australia</CONTINIENT>
     <COUNTRY>New Caledonia</COUNTRY>
@@ -829,11 +639,6 @@
     <FILENAME>NF</FILENAME>
     <CONTINIENT>Australia</CONTINIENT>
     <COUNTRY>Norfolk Island</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>MP</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Northern Mariana Islands</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>NO</FILENAME>
@@ -886,11 +691,6 @@
     <COUNTRY>Philippines</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>PN</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Pitcairn</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>PL</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
     <COUNTRY>Poland</COUNTRY>
@@ -924,11 +724,6 @@
     <FILENAME>RW</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Rwanda</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>RE</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>RÉunion</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>SH</FILENAME>
@@ -966,34 +761,14 @@
     <COUNTRY>San Marino</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>ST</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Sao Tome</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>SA</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>Saudi Arabia</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>NT</FILENAME>
-    <CONTINIENT>Asia</CONTINIENT>
-    <COUNTRY>Saudi–Iraqi NZ</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>SN</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Senegal</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>CS</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Serbien und Montenegro</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>SC</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Seychelles</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>SL</FILENAME>
@@ -1036,11 +811,6 @@
     <COUNTRY>South Georgia</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>SU</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Soviet Union</COUNTRY>
-    </FLAG>
-   <FLAG>
     <FILENAME>ES</FILENAME>
     <CONTINIENT>Europe</CONTINIENT>
     <COUNTRY>Spain</COUNTRY>
@@ -1054,16 +824,6 @@
     <FILENAME>SD</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Sudan</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>SR</FILENAME>
-    <CONTINIENT>South America</CONTINIENT>
-    <COUNTRY>Suriname</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>SJ</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Svalbard</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>SZ</FILENAME>
@@ -1106,11 +866,6 @@
     <COUNTRY>Thailand</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>TL</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Timor-leste</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>TG</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Togo</COUNTRY>
@@ -1131,11 +886,6 @@
     <COUNTRY>Trinidad And Tobago</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>TA</FILENAME>
-    <CONTINIENT>Africa</CONTINIENT>
-    <COUNTRY>Tristan da Cunha</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>TN</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Tunisia</COUNTRY>
@@ -1149,11 +899,6 @@
     <FILENAME>TM</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>Turkmenistan</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>TC</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>Turks And Caicos Islands</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>TV</FILENAME>
@@ -1196,11 +941,6 @@
     <COUNTRY>Uzbekistan</COUNTRY>
    </FLAG>
    <FLAG>
-    <FILENAME>VU</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Vanuatu</COUNTRY>
-   </FLAG>
-   <FLAG>
     <FILENAME>VE</FILENAME>
     <CONTINIENT>South America</CONTINIENT>
     <COUNTRY>Venezuela</COUNTRY>
@@ -1209,21 +949,6 @@
     <FILENAME>VN</FILENAME>
     <CONTINIENT>Asia</CONTINIENT>
     <COUNTRY>Viet Nam</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>VG</FILENAME>
-    <CONTINIENT>North America</CONTINIENT>
-    <COUNTRY>British Virgin Islands</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>VI</FILENAME>
-    <CONTINIENT>South America</CONTINIENT>
-    <COUNTRY>US Virgin Islands</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>WF</FILENAME>
-    <CONTINIENT>Australia</CONTINIENT>
-    <COUNTRY>Wallis And Futuna</COUNTRY>
    </FLAG>
    <FLAG>
     <FILENAME>EH</FILENAME>
@@ -1244,10 +969,5 @@
     <FILENAME>ZW</FILENAME>
     <CONTINIENT>Africa</CONTINIENT>
     <COUNTRY>Zimbabwe</COUNTRY>
-   </FLAG>
-   <FLAG>
-    <FILENAME>AX</FILENAME>
-    <CONTINIENT>Europe</CONTINIENT>
-    <COUNTRY>Åland Islands</COUNTRY>
    </FLAG>
 </FLAGTABLE>

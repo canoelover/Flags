@@ -24,8 +24,8 @@ namespace Flags
 
 		NSObject observer = null;
 
-		private int numberOfButtons = 3;
-		private int numberOfQuestions = 5;
+		private int numberOfButtons = 9;
+		private int numberOfQuestions = 10;
 
 		// Open instance of random number generator
 		Random rand = new Random ();
@@ -52,14 +52,6 @@ namespace Flags
 				firstTime = false;
 			}
 
-			// ================ Settings =================
-//			for (int i = 0; i < numberOfButtons; i++) {
-//				flagButtons [i].TouchUpInside += delegate {
-//					UIButton but = flagButtons [i];
-//					ButtonProcessing(but);
-//				};
-//				flagButtons [i].TouchUpInside += (object sender, EventArgs e) => ButtonProcessing (sender);
-//			}
 
 			Guess1Button.TouchUpInside += (object sender, EventArgs e) => {
 				
@@ -128,6 +120,15 @@ namespace Flags
 			correctAnswers = 0;
 			totalGuesses = 0;
 
+			AnswerLabel.Text = "";
+
+			// Randomize the base list
+			for (int i = 0; i < flags.Count;  i++) {
+				Flag temp = flags[i];
+				int randomIndex = rand.Next(i, flags.Count);
+				flags[i] = flags[randomIndex];
+				flags[randomIndex] = temp;
+			}
 
 			// Setup the flags being used in the game based on the number of questions pref
 			// utilizing the flagCountryList
@@ -260,6 +261,13 @@ namespace Flags
 						break;
 					}
 				}
+			}
+
+			for (int i = 0; i < flags.Count;  i++) {
+				Flag temp = flags[i];
+				int randomIndex = rand.Next(i, flags.Count);
+				flags[i] = flags[randomIndex];
+				flags[randomIndex] = temp;
 			}
 
 		}
